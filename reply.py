@@ -3,15 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
-driver.get('https://messages.google.com/web')
-
 # Logic to log in goes here
 username = "your_username"
 password = "your_password"
 
 # Set up the WebDriver
-driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
+driver = webdriver.Chrome()
 driver.get('https://messages.google.com/web')
 
 # Find and fill the username field
@@ -39,14 +36,3 @@ while True:
     except TimeoutException:
         # Handle the case where no new message appears within the timeout
         pass
-
-
-
-
-sidbiarbiaefjnafb 
-
-
-afsjnen 
-
-afejerg 
-jaeog
